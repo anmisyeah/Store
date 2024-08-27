@@ -1,0 +1,62 @@
+.bookTitle {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #313037;
+}
+
+.bookDetails {
+    display: flex;
+    gap: 128px;
+}
+
+.imgWrapper {
+    text-align: center;
+    background-color: #D7E4FD;
+    margin-bottom: 20px;
+    max-width: 544px;
+    max-height: 472px;
+    width: 100%;
+}
+
+.bookDetailsText {
+    border-top: 1px solid #E7E7E7;
+    max-width: 448px;
+    width: 100%;
+    padding: 41px 5px 0;
+}
+
+.bookInfo {
+    display: flex;
+    justify-content: space-between;
+    color: #A8A8A8 ;
+    font-family: 'Helios';
+    font-size: 16px;
+    line-height: 32px;
+
+        span {
+            font-family: 'Helios';
+            color: #313037;
+        }
+}
+
+.bookPrice {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #313037;
+}
+
+.cartButton {
+    max-width: 448px;
+    width: 100%;
+    padding: 18px 0;
+    background-color: #313037;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    border: none;
+    margin-top: 100px;
+}

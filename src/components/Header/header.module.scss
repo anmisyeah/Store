@@ -1,0 +1,51 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    align-items: center;
+}
+
+.logo {
+    color: #313037;
+}
+
+.searchForm {
+    border: 1px solid #A8A8A8;
+    display: inline-flex;
+    padding: 0 16px;
+    max-width: 540px;
+    width: 100%;
+    height: 56px;
+}
+
+.searchFormTxt {
+    border: none;
+    font-size: 20px;
+    width: 100%;
+    outline: none;
+}
+
+.searchFormBtn {
+    border: none;
+    background-color: transparent;
+}
+
+
+.icons {
+    display: flex;
+    gap: 46px;
+}
+
+.heartImg {
+    cursor: pointer;
+}
+
+.shoppingBagImg {
+    cursor: pointer;
+}
+
+.userImg {
+    cursor: pointer;
+}
+    

@@ -1,0 +1,30 @@
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.bookWrapper {
+    max-width: 352px;
+    width: 100%;
+    
+}
+
+.imgWrapper {
+    text-align: center;
+    background-color: #D7E4FD;
+    margin-bottom: 20px;
+}
+
+.bookTitle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #313037;
+}
+
+.price {
+    max-width: 53px;
+    width: 100%;
+}
